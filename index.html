@@ -1,0 +1,615 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ </head>
+ <link rel="stylesheet" href="nykaa.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar scroll</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kids</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">All brand</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a> -->
+            <!-- <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Link</a>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Wish list</a>
+        </li> -->
+      </div>
+    </div>
+  </nav>
+  <div class="sale">
+    <img src="sale.png" alt="png">
+  </div>
+  <div class="container py-5">
+    <div class="row text-center">
+      <div class="col-6 col-md-1 mb-2">
+        <div class="category-item">
+          <img src="indian wear.jpg" alt="Indianwear" class="img-fluid rounded-circle">
+          <p class="mt-1">Indianwear</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2 mb-2">
+        <div class="category-item">
+          <img src="western.jpg" alt="Westernwear" class="img-fluid rounded-circle">
+          <p class="mt-2">Westernwear</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-1 mb-2">
+        <div class="category-item">
+          <img src="men.jpg" alt="Men" class="img-fluid rounded-circle">
+          <p class="mt-2">Men</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2 mb-2">
+        <div class="category-item">
+          <img src="footwear.jpg" alt="Footwear" class="img-fluid rounded-circle">
+          <p class="mt-2">Footwear</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-1 mb-2">
+        <div class="category-item">
+          <img src="lingerie.webp" alt="Lingerie" class="img-fluid rounded-circle">
+          <p class="mt-2">Lingerie</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2 mb-2">
+        <div class="category-item">
+          <img src="jewellery.jpg" alt="Jewellery" class="img-fluid rounded-circle">
+          <p class="mt-2">Jewellery</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-1 mb-2">
+        <div class="category-item">
+          <img src="bags.webp" alt="Bags" class="img-fluid rounded-circle">
+          <p class="mt-2">Bags</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2 mb-2">
+        <div class="category-item">
+          <img src="kids wear.avif" alt="Kids" class="img-fluid rounded-circle">
+          <p class="mt-2">Kids</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container"> 
+    <div class="row">
+      <div class="col-4"> 
+        <h2>GLOBAL STORE</h2>
+        <P>Your one-shop shop for the latesttrend from labels around the world</P>
+              <img src="wine dress.jpg" alt="jpg">
+      </div>
+      <div class="col-4">
+        <h2>HOUSE OF NYKAAFASHION</h2>
+        <P>Explore the latest  collection from our most loved in house labels</P>
+              <img src="red dress (1).jpg" alt="jpg">
+      </div>
+      <div class="col-4">
+        <h2>REVOLVE</h2>
+        <P>Shop classic neutrals from 700+ celebrity approved brands</P>
+               <img src="silver dress.jpg" alt="jpg">
+      </div>
+    </div>
+    
+  </div> -->
+  <section class="global-section py-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 border-0">
+            <div class="card-header bg-primary text-white">
+              <h3 class="card-title">GLOBAL STORE</h3>
+              <p class="card-text">Your one-stop shop for the latest trends from labels, around the world</p>
+            </div>
+            <img src="wine dress.jpg" class="card-img-top" alt="Global Store">
+            <div class="card-footer bg-white">
+              <a href="#" class="btn btn-dark">Explore Global Store →</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 border-0">
+            <div class="card-header bg-secondary text-white">
+              <h3 class="card-title">HOUSE OF NYKAA FASHION</h3>
+              <p class="card-text">Explore the latest collections from our most loved in-house labels</p>
+            </div>
+            <img src="red dress (1).jpg" class="card-img-top" alt="House of Nykaa Fashion">
+            <div class="card-footer bg-white">
+              <a href="#" class="btn btn-dark">Explore House of Nykaa →</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 border-0">
+            <div class="card-header bg-dark text-white">
+              <h3 class="card-title">REVOLVE</h3>
+              <p class="card-text">Shop classic neutrals from 700+ celebrity-approved brands</p>
+            </div>
+            <img src="silver dress.jpg" class="card-img-top" alt="Revolve">
+            <div class="card-footer bg-white">
+              <a href="#" class="btn btn-dark">Explore Revolve →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="trending-now">
+    <img src="Screenshot 2024-12-27 230656.png" alt="png">
+  </div>
+   
+    <!-- <div class="row">
+        <div class="col-3">
+          <img src="sequin top.avif" alt="avif">
+        </div> -->
+        <!-- <div class="col-3">
+          <img src="jackets.jpeg" alt="jpeg">
+        </div>
+        <div class="col-3">
+          <img src="glizm-wireless-push-up-bra-46844605399308.webp" alt="webp">
+        </div>
+        <div class="col-3">
+          <img src="blings jwel.jpg" alt="jpg">
+        </div> -->
+    <!-- </div> -->
+    
+   </div>
+   <div class="container2">
+    <div class="sequin">
+    <img src="sequin top.avif" alt="avif"> up to 60% off
+  </div>
+  <div class="jacket">
+    <img src="jackets.jpeg"  alt="jpeg">up to 70% off
+  </div>
+  <div class="glizm">
+    <img src="glizm-wireless-push-up-bra-46844605399308.webp" alt="webp">up to 60% off
+  </div>
+  <div class="blings">
+    <img src="blings jwel.jpg" alt="jpg">up to 75% off
+  </div>
+   </div>
+   <div class="container-fluid">
+   <div class="image2">
+    <img src="bride.png" alt="png">
+    <img src="Screenshot 2024-12-28 133655.png" alt="png">
+   </div>
+  </div>
+   <div class="container3">
+    <p>IN THE SPORTLIGHT</p>
+    <h2>HOTTEST BRANDS ON OFFER</h2> </div>
+  <div class="brands">
+    <div class="forever">
+    <img src="forever new.png" alt="png"> <h5>up 50% off</h5>
+    <h6>Stylish & elegant dresses</h6>
+  </div>
+  <div class="twenty">
+    <img src="twenty.png"  alt="png"><h5>up to 70% off</h5><h6>chic dresses & tops</h6>
+  </div>
+  <div class="libas">
+    <img src="libas.png" alt="png"><h5>up to 30% off</h5><h6>Stylish ethniwear</h6>
+  </div>
+  <div class="puma">
+    <img src="puma.png" alt="png"><h5>up to 45% off</h5><h6>Best selling activewear</h6>
+  </div>
+  <div class="cider">
+    <img src="cider.png" alt="png"><h5>up to 65% off</h5><h6>trendiest global styles</h6>
+  </div>
+</div>
+<div class="brands2">
+  <div class="automn">
+  <img src="autumnlane.png" alt="png"> <h5>up 50% off</h5>
+  <h6>Stylish & elegant dresses</h6>
+</div>
+<div class="us-polo">
+  <img src="us polo.png"  alt="png"><h5>up to 70% off</h5><h6>chic dresses & tops</h6>
+</div>
+<div class="souled">
+  <img src="souled store.png" alt="png"><h5>up to 30% off</h5><h6>Stylish ethniwear</h6>
+</div>
+<div class="peach">
+  <img src="peaches.png" alt="png"><h5>up to 45% off</h5><h6>Best selling activewear</h6>
+</div>
+<div class="pure">
+  <img src="pure.png" alt="png"><h5>up to 65% off</h5><h6>trendiest global styles</h6>
+</div>
+</div><div class="container py-5">
+  <div class="row text-center">
+    <div class="col-6 col-md-1 mb-2">
+      <div class="category-item">
+        <img src="indian wear.jpg" alt="Indianwear" class="img-fluid rounded-circle">
+        <p class="mt-1">Indianwear</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-2">
+      <div class="category-item">
+        <img src="western.jpg" alt="Westernwear" class="img-fluid rounded-circle">
+        <p class="mt-2">Westernwear</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-1 mb-2">
+      <div class="category-item">
+        <img src="men.jpg" alt="Men" class="img-fluid rounded-circle">
+        <p class="mt-2">Men</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-2">
+      <div class="category-item">
+        <img src="footwear.jpg" alt="Footwear" class="img-fluid rounded-circle">
+        <p class="mt-2">Footwear</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-1 mb-2">
+      <div class="category-item">
+        <img src="lingerie.webp" alt="Lingerie" class="img-fluid rounded-circle">
+        <p class="mt-2">Lingerie</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-2">
+      <div class="category-item">
+        <img src="jewellery.jpg" alt="Jewellery" class="img-fluid rounded-circle">
+        <p class="mt-2">Jewellery</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-1 mb-2">
+      <div class="category-item">
+        <img src="bags.webp" alt="Bags" class="img-fluid rounded-circle">
+        <p class="mt-2">Bags</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-2 mb-2">
+      <div class="category-item">
+        <img src="kids wear.avif" alt="Kids" class="img-fluid rounded-circle">
+        <p class="mt-2">Kids</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="information">
+  <h4>Nykaa fashion will nevercontact their customerfor cash prizes or request passwords/pin/cvv.
+     please refrain from sharing such confidential information with anyone. as this can result in fraudulent transactions.</h4>
+</div>
+  <div class="container">
+    <h6>Nykaa Fashion – Online Shopping Website</h6>
+<h5>GADGETS & TECH ACCESSORIES</h5>
+<p>Your quest for the best gadgets and accessories ends at Nykaa Fashion. While we keep ourselves a step ahead when it
+   comes to fashion, we also bring you the very best from the world of gadgets, tech accessories, and more. After all,
+    they do play a role in uplifting your overall style!
+
+From innovative gadgets and gizmos to tech gear and accessories, discover 
+everything you will ever need to boost your productivity and style.</p>
+
+<h6>Cameras and Accessories</h6>
+<p>If you have a flair for photography, it's about time you get a camera! Check out a range of Cameras and
+   Accessories like tripods and LED rings to take your photography to the next level. You will find tons of 
+   options in terms of features, price, and more.</p>
+
+<h6>Smartwatches</h6>
+<p>Think it's time to add those amazing apps and notifications on your wrist? It's time to invest in a Smartwatch! 
+  And what better place to find one than on Nykaa Fashion which brings you stylish smartwatches with all the top 
+  features. Explore a wide range of offerings from savvy brands likeFossil, Oppo,Fitbit,Pebble, and more. You will
+   also find plenty of options in Sports Watches,Fitness Trackers, Dress Watches, and more.</p>
+
+<h6>Smartphone Cases & Covers</h6>
+<p>At Nykaa Fashion, you will always find plenty ofCases and Coversto keep your smartphone safe, stylish or both.
+   They are available in various styles and materials ranging from Metal, Leather, Rubber, Plastic, Glass, and more.
+    Apart from mobile cases, you will findLaptops Covers, Tablet Covers, Headphone Covers, Watch Bands, and more. Get these 
+    from top brands like Apple, Samsung, and OnePlus, Realme, other popular names such asChumbak,Macmerise, Na-Kd, andMvyno.</p>
+
+<h6>Speakers</h6>
+<p>If you are still on the lookout for the perfectSpeakersthat suit your audiophile needs and fit your budget, you are 
+  guaranteed to find them at Nykaa Fashion. From global brands likeJBLand Amazon to top Indian players such asBoat,Portronics,
+   andFingers, there's a wide range of brands to choose from - be it for home media systems or your car.</p>
+
+<h6>Headphones</h6>
+If you're bored of your old headphones and planning to buy one that truly rocks, look no further! At Nykaa Fashion,
+\ you will find almost every type ofHeadphonefor your needs. Available in various designs, sizes, and connectivity types,
+ findBluetooth Headphones,True Wireless Headphones, Wireless on Ear Headphones, Wireless Over the Ear Headphones, 
+ and more from popular brands likeBoult Audio,Skullcandy, JBL, Boat, andHammer, among others.
+
+<h6>Power Banks And Chargers</h6>
+Keep your smartphones, tablets and other media devices always topped up with the best Chargers and power banks. At Nykaa Fashion,
+ you will find multi-functional chargers with various connectivity options like USB, Firewire, Wireless, USB-C, and Wi-Fi from top brands.
+
+If you have the perfect charger at home, you might need a power bank for when you're on the go. Choose from a range of options for 
+your smartphone, tablet, Mp3 player or digital camera with capacity going up from 5000mAh to 27000mAh.
+
+<h6>HOME DECOR</h6>
+Create a home of your dreams with Nykaa Fashion. Whatever your needs and desires, find everything you're looking for and discover 
+things you never knew you needed to take your space to a stylish new level! Explore top home décor brands and get inspired by
+ an incredible range of products including designerBed Sheets,Photo Frames,Mirrors,Indoor Planters,Curtains,Blankets,Pillows,Carpets
+  and Rugs,Lamps, and more.
+
+<h6>Wall Decor</h6>
+A well-stated wall gives that perfect finishing touch to your home. Nykaa Fashion brings you the classiestWall Décoritems
+ from popular brands likeExclusiveLane,The Artment,HomeTown, Chumbak,Ellementry,The Décor Remedy, and many more to jazz up the walls.
+
+<h6>Bedding</h6>
+Ready to make your bedroom a stylish paradise? You definitely need to explore the vast collection of bedding 
+products available at Nykaa Fashion. Get everything ranging from Bed sheets, Blankets, Pillows,Pillow Covers,Cushion Covers,
+ and all you can possibly think of from brands likeD'Decor,Spaces,Maspar,Swayam,Dreams,Pure Home + Living, and more.
+
+<h6>Kitchen & Dining</h6>
+At Nykaa Fashion,Kitchen and Dining Essentialsare all about making your hosting nights easier with the finest quality
+ essentials likeDinnerware,Serveware,Cutlery,Table Accessories,Lunch EssentialsandKitchen Appliances. Whether you are
+  starting fresh or updating your supplies, you will find everything that a modern kitchen needs. Explore the widest
+   range of offerings from reputed brands likeWonderchef, Ritu Kumar, Ellementry, ExclusiveLane,Nestasia, Chumbak and more.
+
+<h6>NYKAA FASHION LUXE</h6>
+If you desire a bit of luxury in life and wish to take your style game up a notch, we bring youNykaa Fashion Luxe– 
+a segment that offers head-turning styles and statement accessories to all luxury connoisseurs including Men, Women, 
+and Kids. Think of popular designer brands and local hidden gems with dedicated offerings ranging from luxe watches,
+ apparel, bags, footwear and more.
+
+<h6>Luxe for Men</h6>
+Find everything from men's apparel and Watches to bags and personal accessories – all made with supreme quality
+fabrics and materials for a strong style statement.
+
+Brands to keep an eye on:Urvashi Kaur, Wendell Rodricks,Echke, Carte Blanche, andZeppelinamong others.
+
+<h6>Luxe for Women</h6>
+At Nykaa Fashion Luxe, you will find a galore of options across apparel, jewellery, accessories, bags, footwear,
+ and lingerie. Browse through the magnificent styles and be ready to look and feel like a star.
+
+Brands to keep an eye on:Label Ritu Kumar,First Resort By Ramola Bachchan, Masaba,Khara Kapas, and more.
+
+<h6>Luxe for Kids</h6>
+Nykaa Fashion Luxe also offers a range of premium quality styles for your little ones – both boys and girls.
+ Explore kids' Indian and western wear styles, sleepwear, and infant accessories.
+
+Brands to keep an eye on:Stokke,Little Luxury, Pastito A Pastito,Ps Kids By Payal Singhaland more.
+
+<h6>HIDDEN GEMS</h6>
+Nykaa Fashion brings youHidden Gems– a curation of niche home grown labels that are deeply rooted in Indian
+ craftsmanship and offer pieces that are mindfully handmade by local artisans. These niche labels stay true 
+ to the ethos of hidden gems by interpreting modern fashion trends and advancing craft techniques, giving birth 
+ to the most exquisite creations that you will find only on Nykaa Fashion.
+
+The hidden gems curation presents labels from across the country, offering a beautiful mix of traditional and
+ contemporary fashion. FromLabel Shaurya Sanadhya,Nuhh, andRozana JaipurtoSwtantra,Baise Gaba, andGulaboo Jaipur,
+  discover young and vibrant labels that champion modern Indian design.
+
+Look out for Indian staples like salwar suits, sarees, kurtas, and lehengas or experiment with a range of fusion
+ separates. Indigenous craftsmanship and age-old techniques of embroidery, stitching and weaving have a much-deserved 
+ moment in these creations. Apart from apparel, the hidden gems category also offers a range of accessories, jewellery,
+footwear, bags and more. You will find pieces for every occasion such as Festive, Casual,Formal,Semi-Formal, Wedding, and others.
+
+<h6>STYLE INSPIRATION - LATEST FASHION TRENDS</h6>
+From traditional Indian wear to contemporary and into-western wear, Nykaa Fashion brings you the latest in fashion
+ in an array of styles. While there are plenty of trends to look out for, the world of fashion is greatly inspired
+  by comfortable clothing.
+
+Comfortable clothing has become a trend itself and it is certainly here to stay. Nykaa Fashion has a special Minimal
+ Utility collection from Twenty Dresses that offers a winning combination of style and comfort. So get ready for the
+  ease of movement while being your stylish best in dresses made from breathable fabrics with the finest details and soothing hues.
+
+If you're looking for Celebrity-Inspired Styles that will have you turning heads, check out the latest designs
+ from Masabaon Nykaa Fashion that have been a huge hit among Bollywood celebs. Known for its whimsical, bright prints
+and fusion wear designs, the label will be your go-to for big events.
+
+<h6>SUSTAINABILITY & NYKAA</h6>
+Nykaa Fashion is making every effort to bring sustainable fashion into the limelight through its special edit -The
+ Responsible Collection. It features a mix of sustainability-focused labels from both popular and upcoming labels.
+These carefully curated brands represent the advocates of sustainable fashion that focus on using organic materials,
+recycled products, and upcycled products for sustainable development.
+
+Nykaa Fashion also uses a special 'responsible' tag for products that engage in sustainable practices.
+We also deliver 90% of our orders in eco friendly packaging made from recyclable paper flyers.
+
+Sustainable labels worth checking out: Chumbak, NA-KD,Diwaah,Kicks And Crawl,Cavallo By Linen Club,Charukriti,
+Ed-A-Mamma,Khara Kapas,Monk & MeiandPaio.
+  </div>
+  <header>
+    <div class="container">
+        <div class="app-download">
+            <a href="#">Download Our App</a>
+            <img src="google play.png" alt="Google Play">
+            <img src="app store.jpg" alt="App Store">
+        </div>
+        <div class="customer-care">
+            <p>FOR ANY HELP, YOU MAY CALL US AT</p>
+            <p>1800-266-3333</p>
+            <p>(Monday to Saturday 10 am-10 pm, Sunday: 10 am-7pm)</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="#">Who Are We</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Quicklinks</a></li>
+            <li><a href="#">Follow Us</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+  <div class="section-content">
+      <div class="section-item">
+          <h3 class="section-title">Who Are We</h3>
+          <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+          </ul>
+      </div>
+      <div class="section-item">
+          <h3 class="section-title">Help</h3>
+          <ul>
+              <li><a href="#">Shipping & Return Policy</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+      </div>
+      <div class="section-item">
+          <h3 class="section-title">Quicklinks</h3>
+          <ul>
+              <li><a href="#">Offers</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Style Files</a></li>
+          </ul>
+      </div><div class="section-item">
+        <h3 class="section-title">Follow Us</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<section class="main-categories">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <h3>WOMEN</h3>
+        <ul>
+          <li>Women's Indianwear</li>
+          <li>Women's Westernwear</li>
+          <li>Bags</a></li>
+          <li>Women's Footwear</li>
+          <li>Women's Jewellery</li>
+          <li>Lingerie</li>
+          <li>Women's Sportswear</li>
+          <li>Women's Sleep & Lounge</li>
+          <li>Women's Watches</li>
+          <li>Fashion Accessories</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h3>MEN</h3>
+        <ul>
+          <li>Topwear</a></li>
+          <li>Bottomwear</a></li>
+          <li>Ethnicwear</a></li>
+          <li>Men's Footwear</a></li>
+          <li>Men's Accessories</a></li>
+          <li>Innerwear & Sleepwear</a></li>
+          <li>Men's Watches</a></li>
+          <li>Bags & Backpacks</a></li>
+          <li>Athleisure</a></li>
+          <li>Sports & Fitness</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h3>KIDS</h3>
+        <ul>
+          <li>Kids Indianwear</a></li>
+          <li>Kids Westernwear</a></li>
+          <li>Kids Footwear</a></li>
+          <li>Kids Jewellery</a></li>
+          <li>Feeding</a></li>
+          <li>Kids Sportswear</a></li>
+          <li>Kids Sleepwear</a></li>
+          <li>Kids Accessories</a></li>
+          <li>Toys & Games</a></li>
+          <li>Innerwear</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h3>LUXE</h3>
+        <ul>
+          <li>Luxury Ethnic Wear</a></li>
+          <li>Luxury Westernwear</a></li>
+          <li>Luxury Footwear</a></li>
+          <li>Luxury Bags</a></li>
+          <li>Luxury Accessories</a></li>
+          <li>Luxury Watches</a></li>
+          <li>Luxury Home</a></li>
+          <li>Summer Collection</a></li>
+          <li>Luxury Dresses</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h3>TOP BRANDS</h3>
+        <ul>
+          <li>Puma</a></li>
+          <li>Vero Moda</a></li>
+          <li>W</a></li>
+          <li>Biba</a></li>
+          <li>Forever New</a></li>
+          <li>Skechers</a></li>
+          <li>Fablestreet</a></li>
+          <li>Autumnane</a></li>
+          <li>Cider</a></li>
+          <li>Accessorize London</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h3>HOUSE OF NYKAA</h3>
+        <ul>
+          <li>Twenty Dresses By Nykaa Fashion</a></li>
+          <li>RSVP by Nykaa Fashion</a></li>
+          <li>Gajra Gang by Nykaa Fashion</a></li>
+          <li>Likha by Nykaa Fashion</a></li>
+          <li>Mixt by Nykaa Fashion</a></li>
+          <li>Pipa Bella By Nykaa Fashion</a></li>
+          <li>Azai by Nyksa Fashion</a></li>
+          <li>Twig & Twine</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+<div class="container">
+    <p>&copy; 2023 Nykaa Fashion</p>
+</div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
+ </body>
+ </html>

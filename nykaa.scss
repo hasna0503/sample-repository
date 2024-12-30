@@ -1,0 +1,240 @@
+$primarycolor:black;
+
+$bg-color: #b30000; // Background color for circle
+$text-color: #ffffff; // Text color
+
+.category-item {
+  img {
+    background-color: $bg-color;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  p {
+    color: $text-color;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.col-4{
+    background-color: aqua;
+}
+.global-section {
+    .card {
+      border-radius: 10px;
+      overflow: hidden;
+  
+      .card-header {
+        padding: 20px;
+        font-size: 1.2rem;
+  
+        h3 {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+  
+        p {
+          margin: 10px 0 0;
+          font-size: 0.9rem;
+        }
+      }
+  
+      .card-img-top {
+        height: 400px;
+        object-fit: cover;
+      }
+  
+      .card-footer {
+        padding: 15px;
+  
+        .btn {
+          font-size: 0.9rem;
+          font-weight: bold;
+          text-transform: uppercase;
+          transition: background 0.3s;
+  
+          &:hover {
+            background: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .trending-now img{
+    width: 100%;
+  }
+  .container2{
+    display: flex;
+  }
+  .sequin{
+    border: 10px;
+    box-shadow: 2px;
+  }
+  .sequin img{
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: #333;
+  }
+  .jacket img {
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+  }
+  .blings img{
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+  }
+  .glizm img{
+    width: 380px;
+    height: 500px;
+    padding: 20px; 
+  }
+  .brands{
+    display: flex;
+  }
+  .forever img{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+  }
+  .twenty img{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+  }
+  .libas img{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+  }
+  .puma img{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+  }
+.cider img{
+  width: 300px;
+    height: 400px;
+    padding: 15px;
+}
+.brands2{
+  display: flex;
+}
+.automn img{
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+}
+.us-polo img{
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+}
+.souled img{
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+}
+.peach img{
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+}
+.pure img{
+width: 300px;
+  height: 400px;
+  padding: 15px;
+}
+
+.information {
+    border:5px outset red;
+    background-color: pink;
+    text-align: center;
+}
+.image2 img{
+  width: 750px;
+}
+.image2{
+  display: flex;
+  margin-top: 20px;
+}
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-item {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.section-item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-item li {
+  margin-bottom: 5px;
+}
+.section-item a {
+  color: #333;
+  text-decoration: none;
+}
+.app-download img{
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+}
